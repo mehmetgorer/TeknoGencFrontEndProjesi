@@ -1,0 +1,47 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #252c30; 
+  }
+  
+  .profile-card {
+    width: 600px;
+    background-color: #b9c172; 
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(49, 218, 187, 0.1);
+    padding: 40px; 
+  }
+  
+  .profile-card .ant-card-head-title {
+    text-align: center;
+    font-size: 60px; 
+    margin-bottom: 16px; 
+    color: #90b8e0; 
+  }
+  
+  .profile-card .ant-card-body {
+    padding: 0;
+  }
+  
+  .profile-card .quiz-scores .ant-descriptions-item-label {
+    font-weight: bold;
+    color: #232121; 
+  }
+  
+  .no-user-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .quiz-scores .ant-descriptions-item {
+    border-left: 5px solid #1890ff; 
+    margin-bottom: 12px; 
+    padding-left: 12px; 
+    font-size: 16px; 
+    color: #333333; 
+  }
+  

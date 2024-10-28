@@ -1,0 +1,97 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Card styles */
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation styles */
+@keyframes colorPulse {
+  0% {
+    color: #FFF;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  25% {
+    color: #FF4848;
+    text-shadow: 0 0 20px rgba(255, 72, 72, 0.8);
+  }
+  50% {
+    color: #FFB748;
+    text-shadow: 0 0 10px rgba(255, 183, 72, 0.5);
+  }
+  75% {
+    color: #2BCB66;
+    text-shadow: 0 0 20px rgba(43, 203, 102, 0.8);
+  }
+  100% {
+    color: #2596FF;
+    text-shadow: 0 0 10px rgba(37, 150, 255, 0.5);
+  }
+}
+
+.color-pulse {
+  animation: colorPulse 2s infinite;
+}
+
+@keyframes shadowGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.shadow-glow {
+  animation: shadowGlow 0.3s ease-in-out;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header {
+    font-size: 20px;
+  }
+}
