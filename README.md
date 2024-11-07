@@ -45,7 +45,9 @@ bash
 npm start
 Uygulama, varsayılan olarak http://localhost:3000 adresinde çalışacaktır.
 
-##Ekran Görüntüleri // Screenshots
+---
+
+## Ekran Görüntüleri // Screenshots
 
 
 ![](https://github.com/mehmetgorer/TeknoGencFrontEndProjesi/blob/main/FrontEndProjeScreenShots/Screenshot_1.png)
